@@ -1,0 +1,31 @@
+{
+    "name": "mycli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vajsp/mycli.git"
+    },
+    "bin": "/bin/index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vajsp/mycli/issues"
+    },
+    "homepage": "https://github.com/vajsp/mycli#readme",
+    "dependencies": {
+        "chalk": "4",
+        "commander": "^12.1.0",
+        "figlet": "^1.7.0",
+        "fs-extra": "^11.2.0",
+        "git-clone": "^0.2.0",
+        "gitclone": "^2.0.0",
+        "inquirer": "8.0.0",
+        "ora": "^5.4.1"
+    }
+}
